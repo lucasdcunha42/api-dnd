@@ -1,29 +1,24 @@
-body {
-    font-family: 'Old Standard TT', serif;
-    padding: 20px;
-}
-
-.monster-block {
-    border: 2px solid #1e4d6e;
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-.monster-name {
-    font-size: 32px;
-    font-weight: bold;
-    color: #1e4d6e;
-    margin-bottom: 20px;
-}
-
-.property {
+.monster-card {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .monster-name {
     font-size: 18px;
-    color: #1e4d6e;
+    font-weight: bold;
+  }
+  
+  .property-value {
+    display: block;
     margin-bottom: 5px;
-}
-
-.property-value {
-    font-size: 16px;
-    color: #000;
-}
+  }
+  
+  /* Para dispositivos menores, exibir os cards em uma coluna */
+  @media (max-width: 768px) {
+    .monster-card {
+      width: 100%;
+    }
+  }
+  
